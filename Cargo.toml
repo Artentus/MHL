@@ -1,0 +1,18 @@
+[package]
+name = "mhl"
+version = "0.1.0"
+authors = ["Mathis Rech"]
+edition = "2021"
+description = "Minimal Homebrew Language"
+license = "MIT"
+license-file = "LICENSE.md"
+keywords = ["compiler"]
+categories = ["compilers", "command-line-utilities", "parser-implementations"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "mhlc"
+path = "src/main.rs"
+
+[dependencies]
